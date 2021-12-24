@@ -1,6 +1,6 @@
 # ethereum-wallet-balance-service
 
-## Getting Started
+## Overview
 Python script that given a valid Ethereum wallet address, generates an output of tokens balances. Example below is generated from one of Gary Vaynerchuk public wallets - `0x5ea9681C3Ab9B5739810F8b91aE65EC47de62119`
 
 ```
@@ -29,3 +29,16 @@ Python script that given a valid Ethereum wallet address, generates an output of
 2021-12-24 06:55:51,194 -- INFO:                 Quantity: 30
 2021-12-24 06:55:51,194 -- INFO:                 Total USD Value: $270.00
 ```
+
+## Setup 
+1. Create Virtual Environment 
+```python3 -m venv env .``` 
+
+2. Start Virtual Environment
+```source env/bin/activate```
+
+3. Install Dependencies 
+```pip3 install requests```
+```pip3 install web3```
+
+4. Update ```config.json``` with Ethereum wallet address
