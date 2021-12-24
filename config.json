@@ -1,0 +1,12 @@
+{
+  "wallet_address": "",
+  "api": {
+    "moralis": {
+      "key": "",
+      "node": ""
+    },
+    "coinmarketcap": {
+      "key": ""
+    }
+  }
+}
