@@ -1,7 +1,7 @@
 # ethereum-wallet-balance-service
 
 ## Getting Started
-Given a valid Ethereum wallet address, an output of tokens balances of the wallet will be generated. Example below is generated from address `0x5ea9681C3Ab9B5739810F8b91aE65EC47de62119` (GaryV)
+Python script that given a valid Ethereum wallet address, generates an output of tokens balances. Example below is generated from one of Gary Vaynerchuk public wallets - `0x5ea9681C3Ab9B5739810F8b91aE65EC47de62119`
 
 ```
 2021-12-24 06:55:24,781 -- INFO: Token Profile for Wallet: 0x5ea9681C3Ab9B5739810F8b91aE65EC47de62119
